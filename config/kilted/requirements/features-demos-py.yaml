@@ -83,6 +83,7 @@ requirements:
     expect:
     - !Describe The async parameter client will try setting a bunch of different values like below.
     - !StdOut
+      number: 2
       text: |
         [INFO] [1777495511.134950203] [async_param_client]: Setting parameters:
         [INFO] [1777495511.137789694] [async_param_client]:     int_parameter:
